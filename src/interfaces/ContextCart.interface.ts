@@ -1,5 +1,9 @@
+import CartItem from "./CartItem.interface";
+import Product from "./Product.interface";
+
 export default interface ContextCartProps {
-    num: number;
-    increment?: () => void 
-    decrement?: () => void
+    items: CartItem[]
+    amountItems: number;
+    increment?: (item: Product) => void 
+    decrement?: (item: Product) => void
 }
