@@ -3,7 +3,8 @@ import CardProductProps from "@/interfaces/CardProduct.interface";
 import Image from "next/image";
 
 export default function CardProduct(props: CardProductProps) {
-    const { increment } = useCart()
+    const { increment, amountItems } = useCart()
+    console.log(amountItems)
     const { name, description, image, price } = props.product
     return (
         <article className="flex flex-col w-72 bg-zinc-900 rounded-lg">
