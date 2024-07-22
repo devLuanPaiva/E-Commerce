@@ -23,9 +23,9 @@ Este projeto é uma aplicação de e-commerce desenvolvida seguindo o canal Cod3
    ```bash
    git clone https://github.com/devLuanPaiva/E-Commerce.git
 2. Navege até o diretório do projeto:
-    ``` cd e-commerce
+    ```cd e-commerce```
 3. Instale as dependências:
-    ``` npm install
+    ```npm install```
 4. Inicie o servidor de desenvolvimento:
 
     ```bash
